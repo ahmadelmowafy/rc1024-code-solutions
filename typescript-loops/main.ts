@@ -76,7 +76,7 @@ console.log(sumArray([1, 3, 4, 8, 16]));
 function reverseString(str: string): string {
   let reversed = '';
   for (const i of str) {
-    reversed = reversed + i;
+    reversed = i + reversed;
   }
   return reversed;
 }
