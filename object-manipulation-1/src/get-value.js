@@ -1,5 +1,5 @@
 'use strict';
 /* exported getValue */
-function getValue(object, key) {
+const getValue = (object, key) => {
   return object[key];
-}
+};
