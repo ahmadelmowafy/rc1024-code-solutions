@@ -1,0 +1,17 @@
+button {
+  padding: 8px 15px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+table.grades thead > tr {
+  background-color: black;
+  color: white;
+}
