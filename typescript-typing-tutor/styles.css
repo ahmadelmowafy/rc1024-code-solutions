@@ -1,0 +1,28 @@
+html {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+body {
+  margin: 0;
+}
+
+.text-box {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  border-bottom: 3px solid;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+  border-bottom: 3px solid;
+}
