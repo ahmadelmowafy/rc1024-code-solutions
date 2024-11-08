@@ -11,10 +11,13 @@ Answer the following questions in the provided markdown file before turning in t
   Converting data into a JSON string representation and vice versa.
 
 - Why are serialization and deserialization useful?
+  They allow for transforming data between JSON strings and JavaScript objects, which is useful for storing and sending data.
 
 - How do you serialize a data structure into a JSON string using TypeScript?
+  By using the JSON.stringify() method
 
 - How do you deserialize a JSON string into a data structure using TypeScript?
+  By using the JSON.parse() method
 
 ## Notes
 
