@@ -21,10 +21,10 @@ function getRangeReport(start: number, end: number): RangeReport {
       evens.push(i);
     }
   }
-  rangeReport.total = sum;
-  rangeReport.odds = odds;
-  rangeReport.evens = evens;
-  rangeReport.range = rangeArray;
-  rangeReport.average = sum / rangeArray.length;
+  report.total = sum;
+  report.odds = odds;
+  report.evens = evens;
+  report.range = rangeArray;
+  report.average = sum / rangeArray.length;
   return report;
 }
