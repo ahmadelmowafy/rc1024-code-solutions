@@ -7,7 +7,7 @@ interface RangeReport {
 }
 
 function getRangeReport(start: number, end: number): RangeReport {
-  const rangeReport = {};
+  const report = {};
   let sum = 0;
   const rangeArray = [];
   const odds = [];
@@ -26,5 +26,5 @@ function getRangeReport(start: number, end: number): RangeReport {
   rangeReport.evens = evens;
   rangeReport.range = rangeArray;
   rangeReport.average = sum / rangeArray.length;
-  return rangeReport;
+  return report;
 }
